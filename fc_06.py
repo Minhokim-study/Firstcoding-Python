@@ -45,3 +45,5 @@ print(a.real)           #실수부
 print(a.imag)           #허수부
 print(a.conjugate())    #켤레복소수
 print(abs(a))                  #크기
+
+'''변화된 내용'''
