@@ -24,11 +24,10 @@ del ab['Oyamada']
 print('\nThere are {} contacts in the address book\n'.format(len(ab)))
 
 for name in ab:
-    print(name)
+    print('Contact {} at {}' .format(name, ab[name]))
 
-for name in ab:
-    print(name, ab[name])
-    
+print('')
+
 for name, address in ab.items():
     print('Contact {} at {}' .format(name, address))
 
